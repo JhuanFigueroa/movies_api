@@ -50,8 +50,8 @@ export default function MovieDetail() {
                             </div>
                         </div>
 
-                        <div>
-                            <h3 className="sr-only">Description</h3>
+                        <div className='mt-10'>
+                            <h3 className="text-sm font-medium text-gray-900">Resumen</h3>
 
                             <div className="space-y-6">
                                 <p className="text-base text-gray-900">{movie.overview}</p>
